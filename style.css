@@ -1,0 +1,129 @@
+:root {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    --pGreen: #EDFAEE;
+    --sGreen: #008000;
+    --gray: #808080;
+    --defMargin: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    /* padding: 0 4rem; */
+    margin: auto;
+    background-color: #EDFAEE;
+}
+
+
+header {
+    color: var(--sGreen);
+    /* margin: 10px var(--defMargin); */
+}
+
+header .site-name {
+    font-size: 1.6rem;
+    margin: 10px var(--defMargin);
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 5px;
+    margin: 10px var(--defMargin);
+}
+
+header nav ul li a {
+    color: var(--gray);
+    font-size: 1.2rem;
+}
+
+/* banner */
+
+.banner {
+    margin: 0 var(--defMargin);
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* section*/
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    margin: 50px var(--defMargin);
+    border: 2px solid var(--sGreen);
+    padding: 5px;
+
+}
+
+section .nama {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+section .section-title {
+    text-align: center;
+    border-bottom: 2px solid var(--sGreen);
+    margin: 5px 0;
+}
+
+section .sec-header .price {
+    padding: 5px;
+    background-color: var(--sGreen);
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+section .sec-img {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section .sec-img img {
+    width: 100px;
+}
+
+section .sec-desc .detail {
+    margin-left: 20px
+}
+
+section .sec-desc .detail ul li {
+    list-style-type: disc;
+}
+
+section img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sGreen);
+    /* font-weight: bold; */
+    /* font-size: 1.2rem; */
+    color: white;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.discout-price {
+    text-decoration: line-through;
+}
