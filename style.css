@@ -97,7 +97,7 @@ section .sec-img {
 }
 
 section .sec-img img {
-    width: 100px;
+    width: 250px;
 }
 
 section .sec-desc .detail {
